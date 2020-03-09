@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}}</title>
+        <link rel="stylesheet" type="text/css" href="../output/css/club.css">
+        <script src='../output/javascript/clickable.js'></script>
+    </head>
+    <body class='body' id='body'>
+    <div class='clickable' id='clickable'>
+        <h3> NAV</h3>
+    </div>
+    <nav class='pageNav' id='nav'>
+       {% include "nav.html" %}
+    </nav>
+    <main class='main'>
+        {{mainContent | safe}}
+    </main>
+    <footer>&#9749; Copyright © 2020 Anthony Carnero &#128295;</footer>
+    </body>
+</html>
+
