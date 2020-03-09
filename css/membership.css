@@ -1,0 +1,103 @@
+
+.gridM {
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto 15% 60%; 
+    grid-template-rows: 15% 7% 7% 7% 7% auto 10%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "header . ."
+    ". nameL name"
+    ". emailL email"
+    ". skillL skill"
+    ". levelL level"
+    ". commentL comment"
+    "button . .";
+    margin: 2px;
+}
+
+.headerG {
+    grid-area: header;
+    justify-self: end;
+    font-size: 30px;
+}
+
+.nameL {
+    grid-area: nameL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.emailL {
+    grid-area: emailL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.skillL {
+    grid-area: skillL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.levelL {
+    grid-area: levelL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.commentL {
+    grid-area: commentL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.name {
+    grid-area: name;
+}
+
+.email {
+    grid-area: email;
+}
+
+.skill {
+    grid-area: skill;
+}
+
+.level {
+    grid-area: level;
+}
+
+.comment {
+    grid-area: comment;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bold;
+    grid-area: button;
+    width: 60%;
+    justify-self: end;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 6px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+}
+
+.memFooter {
+    margin: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
+
+
+
+
+
+
+

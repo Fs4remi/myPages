@@ -1,0 +1,14 @@
+
+
+.aboutMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    height: 160px;
+}
+
+.header {
+    padding: 15px;
+    width: 60%;
+}

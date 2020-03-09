@@ -1,0 +1,39 @@
+
+
+.indexMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 280px;
+}
+
+.mainHeader {
+    order: 1;
+}
+
+.htmlLogo {
+    order: 2;
+    height: 100px;
+    width: 90px;
+}
+
+.cssLogo {
+    order: 3;
+    height: 100px;
+    width: 80px;
+}
+
+.helloLogo {
+    order: 4;
+}
+
+.mainInfo {
+    order: 5;
+    align-self: flex-end;
+}
+
+.footer {
+    width: 60%;
+    height: 10%;
+}
