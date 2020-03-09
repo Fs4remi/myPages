@@ -1,0 +1,73 @@
+.pageMain {
+    margin-top: 140px;
+}
+
+.gridL {
+    display: grid;
+    grid-template-columns: 40% 40% 10%;
+    grid-template-rows: 40% 20% 20% 20%;
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    ". header ."
+    "emailL email ."
+    "passwordL password ."
+    "loginL login .";
+}
+
+.headerL {
+    grid-area: header;
+    justify-self: start;
+    align-self: end;
+    font-size: 32px;
+}
+
+.emailL {
+    grid-area: emailL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.email {
+    grid-area: email;
+    width: 70%;
+}
+
+.passwordL {
+    grid-area: passwordL;
+    justify-self: end;
+    font-weight: bold;
+}
+
+.password {
+    grid-area: password;
+    width: 70%;
+}
+
+.loginL {
+    grid-area: loginL;
+}
+
+.login {
+    grid-area: login;
+    width: 40%;
+    font-size: 15px;
+    font-weight: bold;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #ff0055;
+    border-radius: 6px;
+    background: #ff0055;
+    color: white;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+footer {
+    align-self: center;
+}

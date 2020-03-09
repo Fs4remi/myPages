@@ -1,0 +1,55 @@
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../output/css/membership.css">
+        <script src='../output/javascript/membershipInfo.js' ></script>
+    </head>
+        <div class='header'>
+        <header>
+            <h1 class='h1'>Membership</h1>
+        </header>
+        </div>
+        
+        <div class='pageMain gridM'>
+                <h2 class='headerG'>Apply Now!</h2>
+
+                <label class='nameL' for='name'>Name</label>
+                <input
+                    class='name'
+                    type='name'
+                    id=name
+                />
+
+                <label class='emailL' for='email'>Email</label>
+                <input
+                    class='email'
+                    type='email'
+                    id='email'
+                />
+
+                <label class='skillL' for='skill'>Skill</label>
+                <input
+                    class='skill'
+                    type='text'
+                    id='skill'
+                />
+
+                <label class='levelL' for='level'>Level</label>
+                <select class='level' id='level'>
+                    <option value='beginner'>Beginner</option>
+                    <option value='intermediate'>Intermediate</option>
+                    <option value='advance'>Advance</option>
+                </select>
+
+                <label class='commentL' for='comment'>Comments</label>
+                <textarea class='comment' id='comment' cols ='14'rows='6' value="Place Here">
+                </textarea>
+
+                <button class='button' type='submit' id='apply' onclick="thanksHandler()">Sign me up!</button>
+        <div id="backdrop"></div>
+        <section id='ThanksDialog'>
+            <h2>Thanks for Signing Up</h2>
+            <p id='info'>
+            </p>
+            <button id='close' onclick="removeHandler()">Close</button>
+        </section>
+        </div>

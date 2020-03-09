@@ -1,0 +1,8 @@
+[
+    {"fname": "index.html", "title": "Home"},
+    {"fname": "about.html", "title": "About"},
+    {"fname": "clubActivities.html", "title": "Club Activities"},
+    {"fname": "membership.html", "title": "Membership"},
+    {"fname": "login.html", "title": "Login"}
+    
+]
